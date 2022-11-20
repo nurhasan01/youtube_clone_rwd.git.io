@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 0px;
+  }
+
+  .left {
+    padding: 0;
+  }
+
+  #menu {
+    margin: 0;
+    left: 0;
+  }
+
+  .icons {
+    margin: 0 5px;
+    display: none;
+  }
+
+  #dot {
+    display: block;
+  }
+
+  .search {
+    width: 350px;
+  }
+
+  #search-icon {
+    padding: 0px;
+
+    font-size: 16px;
+  }
+
+  #mic {
+    padding: 10px;
+    top: 2px;
+    font-size: 12px;
+  }
+
+  #side {
+    width: 70px;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    height: 100%;
+  }
+
+  .nav-item {
+    padding: 0px;
+  }
+
+  .home {
+    background-color: #f0f0f0;
+    margin: 0 0 5px 0;
+  }
+
+  .nav-item a {
+    display: none;
+    padding: 0;
+  }
+
+  .nav-item i,
+  ion-icon {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 25px;
+  }
+
+  .nav-item i:hover,
+  ion-icon:hover {
+    background-color: #f0f0f0;
+  }
+
+  main {
+    background-attachment: fixed;
+    padding: 0;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin: 0 30px;
+    overflow: auto;
+  }
+
+  .card {
+    width: 300px;
+  }
+}
